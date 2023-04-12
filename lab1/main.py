@@ -1,3 +1,4 @@
 import start
 if __name__=='__main__':
-    start.writer()
+   data1 = start.parse()
+   start.writer(data1)
