@@ -8,8 +8,8 @@ def pagenation():
     url = f"https://www.chitai-gorod.ru/search?phrase={slovo}"
     page = requests.get(url)
     soup = BeautifulSoup(page.text, "html.parser")
-    pages= soup.find('p', class_='catalog-template-header__count--mobile').text.strip().split()
-    return math.ceil(int(pages[1])/48)
+    pages= soup.find('p', class_='search-page__found-message').text.strip().split()
+    return math.ceil(int(pages[-2])/48)
 pages=pagenation()
 print(f"мы нашли {pages} страниц")
 def parse():
@@ -28,16 +28,12 @@ def parse():
                 article_price = 'Not Found'
             data.append([article_nazvanie, article_avtor, article_price])
     return data
+ans=parse()
 def writer(data):
     with xlsxwriter.Workbook('res.xlsx') as workbook:
         worksheet = workbook.add_worksheet()
         for row_num, info in enumerate(data):
             worksheet.write_row(row_num, 0, info)
-
-
-
-
-
 
 
 
