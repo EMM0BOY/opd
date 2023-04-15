@@ -4,10 +4,11 @@
 
 Вариант: 10
 
-Задание:
-Получить список книг с сайта https://www.chitai-gorod.ru/ по запросу Python, записать в файл формата .xlsx название книги, автор, цена.
-![image](https://user-images.githubusercontent.com/127761021/228285629-0bf30b2e-ac31-4cdf-9545-b0a67cb01293.png)
-![image](https://user-images.githubusercontent.com/127761021/228285714-b044359c-0c1a-49b1-b1d2-66313833048d.png)
-![image](https://user-images.githubusercontent.com/127761021/228285790-7dae03aa-b7aa-4a22-aafd-9215f6696020.png)
-![image](https://user-images.githubusercontent.com/127761021/228285939-fcbe9be3-f744-4a1b-a166-8f51b00ae28c.png)
-![image](https://user-images.githubusercontent.com/127761021/228286045-d7252e63-0be9-404b-b17f-ca13efe6fe60.png)
+Задание: Получить список книг с сайта https://www.chitai-gorod.ru/ по запросу Python, записать в файл формата .xlsx название книги, автор, цена.
+![image](https://user-images.githubusercontent.com/127761021/232050487-956b7139-5022-4776-93e2-e0d74c5ca40d.png)
+![image](https://user-images.githubusercontent.com/127761021/232050584-248aa5a9-2037-4295-80de-96f761d9cddb.png)
+![image](https://user-images.githubusercontent.com/127761021/232050663-1ecf0067-baa9-468f-8c0d-c54b331b055c.png)
+![image](https://user-images.githubusercontent.com/127761021/232050806-1807289e-35b2-4ab9-b3a7-5d893207599f.png)
+![image](https://user-images.githubusercontent.com/127761021/232050851-25b66e32-c52e-4918-9486-b64250a12ed2.png)
+![image](https://user-images.githubusercontent.com/127761021/232050904-3514e6a6-586e-4505-a438-ca7c7371244a.png)
+![image](https://user-images.githubusercontent.com/127761021/232050955-9675c881-15db-474d-b025-a70cbe506e9a.png)
