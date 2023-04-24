@@ -7,8 +7,11 @@ def pagenation():
     url = f"https://www.chitai-gorod.ru/search?phrase={slovo}"
     page = requests.get(url)
     soup = BeautifulSoup(page.text, "html.parser")
-    pages=soup.find('div', class_='pagination__wrapper').text.strip().split()
-    return int(pages[-1])
+    try:
+        pages=soup.find('div', class_='pagination__wrapper').text.strip().split()
+        return int(pages[-1])
+    except:
+        return 1
 pages=pagenation()
 print(f"мы нашли {pages} страниц")
 def parse():
