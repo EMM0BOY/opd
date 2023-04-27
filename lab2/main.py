@@ -1,5 +1,5 @@
 import pars
-import start
+import telegrambot
 if __name__=='__main__':
     usd=pars.parser()
-    start.bot(usd)
+    telegrambot.bot(usd)
