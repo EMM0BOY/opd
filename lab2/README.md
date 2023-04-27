@@ -1,3 +1,7 @@
 Лабораторная работа № 2 по дисциплине: "Основы профессиональной деятельности"
 
 Выполнил: студент группы ИВТ-223, Трубицын Д. А.
+
+![1](https://user-images.githubusercontent.com/127761021/234903035-00d03ffe-665a-47d2-9de4-9e2cd0204707.png)
+![2](https://user-images.githubusercontent.com/127761021/234903061-d769973b-38a5-42da-95d4-697f7797b5c4.png)
+![3](https://user-images.githubusercontent.com/127761021/234903087-33cadba9-697e-4ba4-a36a-ce578202e0e3.png)
