@@ -4,7 +4,6 @@ def bot(usd):
     # Инициализация бота и хранилища состояний
     bot = Bot(token="6139653937:AAF66dx70T0t60ZspDVrv5acbMtB_4rQH9o")
     dp = Dispatcher(bot, storage=MemoryStorage())
-    # Создание класса для хранения состояний
     # Обработчик команды /start
     @dp.message_handler(commands="start")
     async def cmd_start(message: types.Message):
