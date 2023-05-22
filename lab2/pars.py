@@ -5,4 +5,5 @@ def parser():
     page = requests.get(url)
     s = BeautifulSoup(page.text, "html.parser")
     usd = s.find("div", class_="currency-table__large-text").text
-    return usd
+    usd=usd.replace(",",".")
+    return float(usd)
