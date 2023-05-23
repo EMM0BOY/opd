@@ -8,4 +8,5 @@
 
 Нахождение корней квадратного уравнения
 ![image](https://github.com/EMM0BOY/opd/assets/127761021/881b7ffa-db3d-42a7-93da-361dd4b19b27)
+
 ![image](https://github.com/EMM0BOY/opd/assets/127761021/2abc9120-4731-4989-887d-b6bf6ec4e001)
