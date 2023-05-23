@@ -22,9 +22,9 @@ def solve():
         result = f"Уравнение имеет один корень: x = {x}"
     else:
         # Два комплексных корня
-        real_part = -b / (2 * a)
-        imaginary_part = (-D) ** 0.5 / (2 * a)
-        result = f"Корни уравнения: x1 = {real_part} + {imaginary_part}i, x2 = {real_part} - {imaginary_part}i"
+        kom1 = -b / (2 * a)
+        kom2=  (-D) ** 0.5 / (2 * a)
+        result = f"Корни уравнения: x1 = {kom1} + {kom2}i, x2 = {kom1} - {kom2}i"
     return render_template('result.html', result=result)
 if __name__ == '__main__':
     app.run()
