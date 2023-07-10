@@ -36,29 +36,3 @@ def writer(data):
         worksheet = workbook.add_worksheet()
         for row_num, info in enumerate(data):
             worksheet.write_row(row_num, 0, info)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
